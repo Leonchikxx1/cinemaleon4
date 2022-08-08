@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>cinema</title>
+	<link rel='shortcut icon'href='logo.png'>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <div class='hero'>
+
+        <video autoplay loop muted plays-inline class='back-video'>
+        	<source src="cinema.mp4" type="video/mp4">
+        </video>   
+
+        <nav>	
+      	<img src='logo.png'class='logo'>
+      	<ul> 
+      		<li><a href='#'>Главная</a></li>
+      		<li><a href='#'>О нас</a></li>
+      		<div class='dropdown'>
+      			<button class='dropbtn'>Города</button>
+      		<div class='dropdown-content'>
+      		<a href='#'>Краснодар</a>
+      		<a href='#'>Сочи</a>
+      		<a href='#'>Ростов-на-Дону</a>
+      	    </div>
+            </div>
+      		<li><a href='#'>Контакты</a></li>
+      	</ul>
+        </nav>
+              <div class='content'>
+              	<h1>Кино под открытым небом с приятной обстановкой</h1>
+              	<p>13 августа - 16 августа 2022 года</p>
+              	<p>Краснодар</p>
+              	<button onclick='myFunction()'class='btn'>Подать заявку</button>
+        </div>
+    </div>
+ 
+   <!-- about секция начало-->
+
+<section class='about'>
+	<div class='main'>
+		<img src='cinema1.jpg'>
+		<div class='about-text'>
+			<h2>Так мы проводим вечера в разных городах</h2>
+			<p>Мы объединяем людей по Краснодарскому краю , совсем недавно были в Ростове-на-Дону . Наша команда так же затрагивает социальные взаимоотношения между людьми , подталкивая их к социализации. Ну а вообще мы приятно проводим время.Так же у нас имеются разные напитки и закуски,но вы можете взять и что-то с собой,мы смотрим фильмы и обсуждаем разные интересные темы.</p>
+			<button type='about-button'class='about-button'>Стоимость</button>
+	</div>
+</section>
+ 
+   <!-- about секция начало конец-->
+
+
+
+<script>
+	function myFunction(){
+		window.open('http://www.google.com/');
+	}
+</script>
+</body>
+</html>
